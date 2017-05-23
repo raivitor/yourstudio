@@ -1,0 +1,2 @@
+# yourstudio
+Projeto da disciplina DIM0538 - TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE VIII

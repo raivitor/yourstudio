@@ -18,7 +18,7 @@
 				<a href="novoPedido.php">Novo Pedido</a>
 			</li>
 			<li>
-				<a href="#">Pedido em andamento</a>
+				<a href="andamento.php">Pedido em andamento</a>
 			</li>
 			<li>
 				<a href="#">Pedidos finalizados</a>

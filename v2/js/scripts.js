@@ -20,5 +20,9 @@ function previewFile(){
    }
 }
 
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();   
+});
+
 // https://github.com/blueimp/jQuery-File-Upload
 // https://fineuploader.com/demos

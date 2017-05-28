@@ -20,10 +20,10 @@
 			</h3>
 			<form class="form-horizontal" role="form">
 				<div class="form-group">
-					<label for="inputEmail3" class="col-sm-2 control-label">
+					<label for="inputEmail3" class="col-sm-1 control-label">
 						Pesquisar
 					</label>
-					<div class="col-sm-10">
+					<div class="col-sm-11">
 						<input type="email" class="form-control" id="inputEmail3" />
 						<button type="submit" class="btn btn-default">
 							Buscar

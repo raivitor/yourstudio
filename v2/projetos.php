@@ -42,21 +42,21 @@
 				</thead>
 				<tbody>
 					<tr class="success" style="border-style: dotted;">
-						<td><a href="projeto.php">Título 1 </a><br>
+						<td><a href="projeto.php">Deixar as cores da minha camisa mais vivas</a><br>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat lectus augue, vitae posuere mauris sodales sit amet. Curabitur quis ipsum turpis. Nullam sit amet risus pharetra, interdum nisl non, dictum mi. Suspendisse laoreet velit vitae dui convallis, ut vestibulum augue sollicitudin. Vivamus tempor, metus vitae fringilla sodales, enim tortor porta leo, ut sagittis velit purus a tellus.</td>
 						<td>6 dias</td>
 						<td>2</td>
 						<td><img src="http://lorempixel.com/100/100/city" /></td>
 					</tr>
 					<tr>
-						<td>Título 1 <br>
+						<td>Tirar espinha do rosto<br>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat lectus augue, vitae posuere mauris sodales sit amet. Curabitur quis ipsum turpis. Nullam sit amet risus pharetra, interdum nisl non, dictum mi. Suspendisse laoreet velit vitae dui convallis, ut vestibulum augue sollicitudin. Vivamus tempor, metus vitae fringilla sodales, enim tortor porta leo, ut sagittis velit purus a tellus.</td>
 						<td>6 dias</td>
 						<td>2</td>
 						<td><img src="http://lorempixel.com/100/100/city" /></td>
 					</tr>
 					<tr>
-						<td>Título 1 <br>
+						<td>Quero dentes mais brancos<br>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent placerat lectus augue, vitae posuere mauris sodales sit amet. Curabitur quis ipsum turpis. Nullam sit amet risus pharetra, interdum nisl non, dictum mi. Suspendisse laoreet velit vitae dui convallis, ut vestibulum augue sollicitudin. Vivamus tempor, metus vitae fringilla sodales, enim tortor porta leo, ut sagittis velit purus a tellus.</td>
 						<td>6 dias</td>
 						<td>2</td>

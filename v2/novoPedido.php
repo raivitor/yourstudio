@@ -41,7 +41,7 @@
 						  			<input type="date" class="form-control" id="inputEmail3">
 						  		</div>
 						  		<div class="checkbox col-sm-6">
-								  	<label data-toggle="tooltip" data-placement="top" title="No modo Urgente o projeto fica aberto para todos os designers e eles podem cobrar mais caro.">
+								  	<label data-toggle="tooltip" data-placement="top" title="No modo Urgente o projeto fica em destaque para todos os designers e eles podem cobrar mais caro.">
 								    	<input type="checkbox" value="" >Urgente
 								    </label>
 								</div>

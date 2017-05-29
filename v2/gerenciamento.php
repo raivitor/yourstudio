@@ -98,10 +98,11 @@
 			</div>
 
 			<div class="col-md-5">
-				<img class="img-thumbnail" src="http://lorempixel.com/100/100/city" />
-				<img class="img-thumbnail" src="http://lorempixel.com/100/100/city" />
-				<img class="img-thumbnail" src="http://lorempixel.com/100/100/city" />
-				<br> <br>
+				<p><img class="img-thumbnail" src="http://lorempixel.com/100/100/city" /><button type="button" class="btn btn-link">img1.jpg</button> </p>
+				<p><img class="img-thumbnail" src="http://lorempixel.com/100/100/city" /><button type="button" class="btn btn-link">img2.jpg</button> </p>
+				<p><img class="img-thumbnail" src="http://lorempixel.com/100/100/city" /><button type="button" class="btn btn-link">img3.jpg</button> </p>
+				<?php if($GLOBALS['tipo'] == "cliente"){
+					echo '<br> <br>
 				<form class="form-horizontal" id="formProjeto" onsubmit="return modalConfirm()">
 				  	<div class="form-group">
 				    	<div class="col-sm-6">
@@ -114,7 +115,9 @@
 				      		<button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#concluirProjeto">Concluir Projeto</button>
 				    	</div>
 				  	</div>
-				</form>
+				</form>';
+				}
+				?>
 				<?php include('template/modal.php') ?>
 			</div>
 		</div>

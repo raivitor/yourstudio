@@ -30,5 +30,13 @@ function toast() {
     setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
     window.location = 'andamento.php';
 }
+
+function botao(checkbox, botao) {
+  if(checkbox.checked){
+    document.getElementById(botao).disabled = false;
+  } else{
+    document.getElementById(botao).disabled = true;
+  }
+}
 // https://github.com/blueimp/jQuery-File-Upload
 // https://fineuploader.com/demos

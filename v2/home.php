@@ -9,7 +9,7 @@
 	<div class="row">
 		<div class="col-md-12">
 			<?php include("template/navbar.php"); 
-			header("location:$redirect");
+				header("location:$redirect");
 			?>
 		</div>
 	</div>

@@ -5,7 +5,6 @@ if(isset($_POST['email'])){
 	if($_POST['email'] == "designer@gmail.com")$_SESSION['tipo'] = "designer";
 }
 if($_SESSION['tipo'] == "cliente"){
-	;
 	$redirect = "andamento.php";
 	echo '
 		<nav class="navbar navbar-default" role="navigation">
@@ -37,9 +36,11 @@ if($_SESSION['tipo'] == "cliente"){
 						<a href="#">Conversas</a>
 					</li>
 				</ul>
+				<ul class="nav navbar-nav navbar-right">
+		        	<li><a href="index.php" class="navbar-link" class="navbar-form navbar-left">Logout</a></li>
+		    	</ul>
 			</div>
-
-			<a href="index.php" class="navbar-link" class="navbar-text navbar-right">Logout</a>
+			
 		</nav>
 	';
 } elseif ( $_SESSION['tipo'] == "designer"){
@@ -75,6 +76,9 @@ if($_SESSION['tipo'] == "cliente"){
 						<a href="#">Conversas</a>
 					</li>
 				</ul>
+				<ul class="nav navbar-nav navbar-right">
+		        	<li><a href="index.php" class="navbar-link" class="navbar-form navbar-left">Logout</a></li>
+		    	</ul>
 			</div>
 		</nav>
 	';

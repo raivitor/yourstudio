@@ -16,7 +16,7 @@
 			<div class="col-md-4">
 				<h3>Imagens adicionadas</h3>
 				<input type="file" onchange="previewFile()">
-				<img src="" height="200" alt="Image preview...">
+				<img src="" height="300" alt="Image preview...">
 			</div>
 			<div class="col-md-4">
 				<h3>Imagens de referencia</h3>
@@ -48,7 +48,7 @@
 						  	</div>
 						  	<div class="form-group">
 						  		<div>
-							      	<button type="submit" class="btn btn-primary">Cadastrar!</button>
+							      	<button type="button" class="btn btn-primary" onclick="toast()">Cadastrar!</button>
 							    </div>
 						  	</div>
 						</form>
@@ -57,7 +57,7 @@
 			</div>
 		</div>
 	</div>
-
+	<div id="snackbar">Teste</div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>

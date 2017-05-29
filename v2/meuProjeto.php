@@ -73,62 +73,18 @@
 				<form class="form-horizontal" id="formProjeto" onsubmit="return modalConfirm()">
 					<div class="form-group">
 				    	<div class="col-sm-6">
-				      		<button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal">Editar Projeto</button>
+				      		<button type="button" class="btn btn-primary btn-lg btn-block">Editar Projeto</button>
 				    	</div>
 				  	</div>
 				 
 				  	<div class="form-group">
 				    	<div class="col-sm-6">
-				      		<button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal">Cancelar Projeto</button>
+				      		<button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#cancelarProjeto">Cancelar Projeto</button>
 				    	</div>
 				  	</div>
 				</form>
 
-				<!-- Modal -->
-				<div class="modal fade  bs-example-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				  <div class="modal-dialog modal-sm" role="document">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h4 class="modal-title" id="myModalLabel">Confirmação de interesse</h4>
-				      </div>
-				      <div class="modal-body">
-				        Olá Fulano da Silva, deseja confirmar o interesse no Projeto 1 com prazo de X dias em troca do valor R$ xx,xx ?<br>
-				        <div class="checkbox">
-						    <label>
-						      <input type="checkbox"> Aceito os termos do sistema
-						    </label>
-  						</div>
-				      </div>
-				      <div class="modal-footer">
-				        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-				        <button type="button" class="btn btn-primary">Aceito</button>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-
-				<!-- Modal -->
-				<div class="modal fade  bs-example-modal-sm" id="confirmarDesigner" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-				  	<div class="modal-dialog modal-sm" role="document">
-					    <div class="modal-content">
-					      	<div class="modal-header">
-					        	<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					        	<h4 class="modal-title" id="myModalLabel">Confirmação do designer</h4>
-					      	</div>
-					      	<div class="modal-body">
-					        	Olá NomeDoCliente<br>
-					        	Deseja aceitar o *NomeDoDesign* com o prazo em *X dias* em troca do valor *R$ XX,XX*?<br>
-					      	</div>
-					      	<div class="modal-footer">
-					        	<button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-					        	<button type="button" class="btn btn-primary" onclick="window.location = 'teste.php'">Confirmar</button>
-					      	</div>
-					    </div>
-				  	</div>
-				</div>
-
-
+				<?php include('template/modal.php') ?>
 			</div>
 		</div>
 	</div>

@@ -19,44 +19,44 @@
 				<div class="col-md-12 card">
 					<div class="container2"> 
 					<div class="col-md-3 card2">
-  					Total de lances: 10
-				</div>
-				<div class="col-md-4 card2">
-  					Média dos lances: R$ 50,00
-				</div>
-				<div class="col-md-5 card2">
-  					Variação de preços: R$ 5,00 ~ R$ 100,00
-				</div>
+	  					Total de lances: 3
+					</div>
+					<div class="col-md-4 card2">
+	  					Média dos lances: R$ 91,66
+					</div>
+					<div class="col-md-5 card2">
+	  					Variação de preços: R$ 50,00 ~ R$ 150,00
+					</div>
 						<table class="table table-striped table-hover table-condensed">
-				<thead>
-					<tr>
-						<th>Designer</th>
-						<th>Prazo</th>
-						<th>Lances</th>
-						<th>Reputação</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td><a href="designer.php">Designer 1</a></td>
-						<td>6 dias</td>
-						<td>R$ 5,00</td>
-						<td>* * * * *</td>
-					</tr>
-					<tr>
-						<td><a href="designer.php">Designer 1</a></td>
-						<td>6 dias</td>
-						<td>R$ 5,00</td>
-						<td>* * * * *</td>
-					</tr>	
-					<tr>
-						<td><a href="designer.php">Designer 1</a></td>
-						<td>6 dias</td>
-						<td>R$ 5,00</td>
-						<td>* * * * *</td>
-					</tr>		
-				</tbody>
-			</table>
+							<thead>
+								<tr>
+									<th>Designer</th>
+									<th>Prazo</th>
+									<th>Lances</th>
+									<th>Reputação</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><a href="designer.php">Designer 1</a></td>
+									<td>6 dias</td>
+									<td>R$ 50,00</td>
+									<td>* * * *</td>
+								</tr>
+								<tr>
+									<td><a href="designer.php">Designer 1</a></td>
+									<td>6 dias</td>
+									<td>R$ 50,00</td>
+									<td>* * * *</td>
+								</tr>	
+								<tr>
+									<td><a href="designer.php">Designer 1</a></td>
+									<td>7 dias</td>
+									<td>R$ 150,00</td>
+									<td>* * * * *</td>
+								</tr>		
+							</tbody>
+						</table>
 					</div>
 				</div>
 			</div>
@@ -109,7 +109,7 @@
 				      </div>
 				      <div class="modal-footer">
 				        <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-				        <button type="button" class="btn btn-primary">Aceito</button>
+				        <button type="button" class="btn btn-primary" data-dismiss="modal">Aceito</button>
 				      </div>
 				    </div>
 				  </div>

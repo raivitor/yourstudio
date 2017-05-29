@@ -42,13 +42,13 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>Deixar as cores da minha camisa mais vivas</td>
+						<td><a href="meuProjeto.php">Deixar as cores da minha camisa mais vivas</a></td>
 						<td>3 dias</td>
 						<td>- - - </td>
 						<td><span class="label label-primary">Esperando designers</span></td>
 					</tr>
 					<tr>
-						<td><a href="meuProjeto.php">Tirar espinha do rosto</a></td>
+						<td><a href="gerenciamento.php">Tirar espinha do rosto</a></td>
 						<td>6 dias</td>
 						<td>Mr. M</td>
 						<td><span class="label label-success">Andamento</span></td>

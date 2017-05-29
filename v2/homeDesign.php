@@ -2,15 +2,12 @@
 <html lang="en">
   <head>
   	<?php include ("template/head.php") ?>
-  	
   </head>
   <body>
   <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<?php include("template/navbar.php"); 
-			header("location:$redirect");
-			?>
+			<?php include("template/navbar.php") ?>
 		</div>
 	</div>
 	<div class="row">

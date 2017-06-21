@@ -31,11 +31,17 @@ function toast() {
     window.location = 'andamento.php';
 }
 
-function botao(checkbox, botao) {
+function botao(checkbox, botao, id=0) {
   if(checkbox.checked){
     document.getElementById(botao).disabled = false;
   } else{
     document.getElementById(botao).disabled = true;
+  }
+  if(id==1){
+    if(checkbox.checked)
+      document.getElementById(botao).style.display = "none";
+    else
+      document.getElementById(botao).style.display = "block";
   }
 }
 // https://github.com/blueimp/jQuery-File-Upload

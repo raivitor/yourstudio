@@ -3,6 +3,7 @@
 
   <head>
   	<?php include ("template/head.php") ?>
+  	<link rel="stylesheet" href="chosen/chosen.css">
   </head>
 
   <body>
@@ -42,9 +43,18 @@
 						  		</div>
 						  		<div class="checkbox col-sm-6">
 								  	<label data-toggle="tooltip" data-placement="top" title="No modo Urgente o projeto fica em destaque para todos os designers e eles podem cobrar mais caro.">
-								    	<input type="checkbox" value="" >Urgente
+								    	<input type="checkbox" value="" onclick="botao(this, 'selectDesigner', 1)">Urgente
 								    </label>
 								</div>
+						  	</div>
+						  	<div class="form-group" id="selectDesigner">
+						  		Escolher o designer 
+						  		<select data-placeholder="Escolha um designer" class="chosen-select form-control" tabindex="1" id="">
+						            <option value="1">Livre para qualquer designer</option>
+						            <option value="d2">Antonio da silva *****</option>
+						            <option value="d3">José da silva ****</option>
+						            <option value="d4">Raí da silva ***</option>
+					            </select>
 						  	</div>
 						  	<div class="form-group">
 						  		<div>
@@ -57,10 +67,12 @@
 			</div>
 		</div>
 	</div>
-	<div id="snackbar">Teste</div>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="chosen/chosen.jquery.js" type="text/javascript"></script>
+  	<script src="chosen/docsupport/prism.js" type="text/javascript" charset="utf-8"></script>
+  	<script src="chosen/docsupport/init.js" type="text/javascript" charset="utf-8"></script>
   </body>
 
 </html>

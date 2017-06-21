@@ -77,6 +77,7 @@ if($_SESSION['tipo'] == "cliente"){
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
+					<li><a href="config.php">Config</a> </li>
 		        	<li><a href="index.php" class="navbar-link" class="navbar-form navbar-left">Logout</a></li>
 		    	</ul>
 			</div>

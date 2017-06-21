@@ -120,3 +120,26 @@
 		</div>
 	</div>
 </div>
+
+<div class="modal fade  bs-example-modal-sm" id="cadastrarLance" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	<div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">Confirmação de interesse</h4>
+			</div>
+			<div class="modal-body">
+				Olá Fulano da Silva, submeter essa imagem não garante que será escolhido. Você estará competindo com o outros designers e o criador do projeto pode escolher o que achar melhor.<br>
+				<div class="checkbox">
+					<label>
+					<input type="checkbox" onclick="botao(this, 'botaoInteresse2')"> Aceito os termos do sistema
+					</label>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+				<button type="button" class="btn btn-primary" data-dismiss="modal" id="botaoInteresse2" disabled onclick="window.location = 'andamentoDesigner.php'">Aceito</button>
+			</div>
+		</div>
+	</div>
+</div>

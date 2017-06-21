@@ -61,7 +61,7 @@ if($_SESSION['tipo'] == "cliente"){
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li>
-						<a href="#">Meu perfil</a>
+						<a href="perfilDesigner.php">Meu perfil</a>
 					</li>
 					<li>
 						<a href="projetos.php">projetos</a>

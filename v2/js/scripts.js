@@ -24,13 +24,6 @@ $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip();   
 });
 
-function toast() {
-    var x = document.getElementById("snackbar")
-    x.className = "show";
-    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-    window.location = 'andamento.php';
-}
-
 function botao(checkbox, botao, id=0) {
   if(checkbox.checked){
     document.getElementById(botao).disabled = false;

@@ -58,7 +58,7 @@
 						  	</div>
 						  	<div class="form-group">
 						  		<div>
-							      	<button type="button" class="btn btn-primary" onclick="toast()">Cadastrar!</button>
+							      	<button type="button" class="btn btn-primary" onclick="window.location = 'andamento.php'">Cadastrar!</button>
 							    </div>
 						  	</div>
 						</form>
